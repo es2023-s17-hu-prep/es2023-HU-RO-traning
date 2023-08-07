@@ -39,7 +39,7 @@ By the end of Module A, each competitor will have crafted an impressive static w
 
 ## DineEase Showcase Website Structure and Pages Definition
 
-As the client, DineEase envisions a captivating showcase website that highlights the essence of our platform, encouraging users to explore the exciting world of dining possibilities. The website structure and detailed pages and sections definition are as follows:
+As the client, DineEase envisions a captivating showcase website that highlights the essence of our platform, encouraging users to explore the exciting world of dining possibilities. The website structure and detailed pages and sections definition are as follows. The text content of each page can be found in the assests/module-A/content folder.
 
 ### Home Page:
 
@@ -53,22 +53,6 @@ Footer section with essential links, contact information, and social media integ
 An overview of DineEase's mission, vision, and commitment to revolutionizing the dining experience.
 A captivating timeline showcasing the journey of DineEase from its inception to becoming a culinary leader.
 Profiles of the passionate team behind DineEase, featuring their expertise and dedication to the platform's success.
-### Restaurants Page:
-
-A comprehensive listing of partner restaurants, organized by location or cuisine type.
-Each restaurant listing includes a prominent image, name, location, cuisine, ratings, and reviews.
-An interactive map to visualize restaurant locations and aid in selecting nearby options.
-Filters and sorting options for users to refine their restaurant search based on preferences.
-### Menu Page:
-
-A delightful showcase of sample menus from featured restaurants, complete with appetizing images and dish descriptions.
-Users can explore menus by category, such as starters, mains, desserts, and beverages.
-Nutritional information and dietary options (e.g., vegetarian, vegan, gluten-free) will be provided for each dish.
-### Reviews Page:
-
-A compilation of genuine reviews from previous guests, showcasing their experiences at various partner restaurants.
-Users can filter reviews by restaurant, rating, or date to gain insights into the dining quality and ambiance.
-A section encouraging users to leave their own reviews and share their memorable dining moments.
 ### Contact Page:
 
 A user-friendly contact form allowing users to get in touch with DineEase for inquiries or feedback.
