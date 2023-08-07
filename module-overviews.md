@@ -1,0 +1,3 @@
+# Modules overviews
+
+Fork Inc. is a small startup in Hungary. The company previously developed a restaursant software but now they extended their business with a brand new service. A portal and a progressive web application have been created where visitors can choose between restaurants, view the full menu of any restaurant, read reviews from previous guests about the restaurant service and food. They can also book a table at the restaurant of their choice and order and pay through the website or the app.  
