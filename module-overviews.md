@@ -4,7 +4,7 @@
 
 During the competition days, you will be responsible for developing a prototype of the software components needed for the service. The task is divided into 5 modules:
 
-## Module A - Promotional website presenting the service
+## Module A - DineEase Showcase Website
 In this module, you will create a captivating promotional website for DineEase. The website should showcase the service's features, such as restaurant search, full menus, and guest reviews. The goal is to entice users to explore and use the DineEase platform for their dining needs.
 ## Module B - Restaurant Owners' Hub
 You will develop a server-side rendered administration page where restaurant owners can easily manage their restaurant profiles and data. This hub empowers restaurant owners to update menus, respond to reviews, and keep their information up-to-date, ensuring a seamless and engaging experience for customers.
