@@ -1,0 +1,130 @@
+openapi: 3.0.0
+info:
+  title: DineEase Unsecured API
+  description: Unsecured API endpoints for DineEase data.
+  version: 1.0.0
+
+servers:
+  - url: https://unsecured-dineease.example.com/api
+
+paths:
+
+  /unsecured-auth:
+    post:
+      summary: Authenticate user
+      description: Authenticate user credentials.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Authentication successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  userId:
+                    type: integer
+                  username:
+                    type: string
+                  isValid:
+                    type: boolean
+        '401':
+          description: Authentication failed
+
+  /restaurants:
+    get:
+      summary: Retrieve the list of restaurants.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Restaurant'
+
+  /menus:
+    get:
+      summary: Retrieve the list of menu items.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Menu'
+
+  /reservations:
+    post:
+      summary: Make a new reservation.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Reservation'
+      responses:
+        '201':
+          description: Reservation created
+        '400':
+          description: Invalid input
+
+components:
+
+  schemas:
+
+    Restaurant:
+      type: object
+      properties:
+        restaurant_id:
+          type: integer
+        name:
+          type: string
+        location:
+          type: string
+        cuisine:
+          type: string
+        rating:
+          type: number
+
+    Menu:
+      type: object
+      properties:
+        menu_id:
+          type: integer
+        restaurant_id:
+          type: integer
+        dish_name:
+          type: string
+        price:
+          type: number
+
+    Reservation:
+      type: object
+      properties:
+        reservation_id:
+          type: integer
+        restaurant_id:
+          type: integer
+        user_name:
+          type: string
+        date:
+          type: string
+        time:
+          type: string
+        party_size:
+          type: integer
+
