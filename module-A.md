@@ -17,6 +17,7 @@ The Home Page should consist the following sections:
     * A featured section showcasing top-rated restaurants, complete with images, brief descriptions, and ratings.
     * Testimonials from satisfied guests, sharing their delightful dining experiences through DineEase.
     * An interactive search bar allowing users to discover restaurants by cuisine, location, or specific preferences.
+        * The user should be able to switch between simple and advanced search modes (see: "design/Restaurant Search Flow.png")
     * Footer section with essential links, contact information, and social media integration.
 
 #### About Us Page:
