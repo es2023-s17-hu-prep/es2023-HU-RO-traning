@@ -4,10 +4,10 @@ In Module A of the DineEase Web Development Competition, participants will embar
 
 ## Task List:
 
-### Understanding and implementing the Client's Vision: 
+### 1. Understanding and implementing the Client's Vision: 
 You should thoroughly review the provided website structure and detailed pages and sections defined by the client for the DineEase showcase website. You should ensure that the design of all subpages is visually aligned, creating a cohesive and harmonious user experience. Consistency in layout, typography, and color schemes is key to reinforcing the DineEase brand identity. For creating an engaging user interface that encourages visitors to explore the DineEase platform a graphic designer already created a website design. You should follow the provided design file as much as possible. The design files, images and text content can be found in the assets/module-A folder.
 
-### DineEase Showcase Website Structure and Pages Definition
+### 2. DineEase Showcase Website Structure and Pages Definition
 
 As the client, DineEase envisions a captivating showcase website that highlights the essence of our platform, encouraging users to explore the exciting world of dining possibilities. The website structure and detailed pages and sections definition are as follows. The text content of each page can be found in the assests/module-A/content folder.
 
@@ -32,20 +32,20 @@ Links to DineEase's social media profiles, enabling users to stay connected and 
 #### Privacy Policy and Terms of Use Pages:
 Transparent disclosure of DineEase's privacy policy, emphasizing data protection and user confidentiality. Comprehensive terms of use outlining the rights and responsibilities of users while using the DineEase platform. 
 
-### Responsive Design: 
+### 3. Responsive Design: 
 Competitors will implement responsive design techniques to ensure that the DineEase website looks visually appealing and functions flawlessly across three different viewports: mobile, tablet, and desktop. Media queries and flexible layouts will be utilized to achieve responsiveness.
 
-### Accessibility Compliance: 
+### 4. Accessibility Compliance: 
 Competitors will meticulously apply accessibility standards (WCAG) to ensure that the website is inclusive and can be used by all users, regardless of their abilities. This will involve providing alternative text for images, semantic HTML elements, and proper ARIA attributes.
 
-### SEO Best Practices: 
+### 5. SEO Best Practices: 
 Participants will incorporate SEO best practices into the website's HTML structure, meta tags, and content, optimizing it for search engine visibility and ranking. This will increase DineEase's online presence and attract organic traffic.
 
-### CSS Preprocessors: 
+## CSS Preprocessors: 
 If desired, competitors may utilize CSS preprocessors such as Sass or Less to streamline their CSS workflow and enhance code maintainability. However, they must ensure that the generated CSS code passes W3C validations.
 
-### Library and Framework Limitations: 
+## Library and Framework Limitations: 
 No server-side or client-side frameworks will be allowed for this module, as the focus is on pure HTML and CSS development.
 
-### Validation and Accessibility: 
+## Validation and Accessibility: 
 Your website will thoroughly test on the latest stable versions of Google Chrome and Firefox. W3C also will be used  to check for HTML and CSS validity and axe for accessibility testing.
