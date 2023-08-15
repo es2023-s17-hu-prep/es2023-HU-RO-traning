@@ -17,6 +17,8 @@ servers:
     description: Order Service
   - url: http://localhost:5006
     description: User Service
+  - url: http://localhost:5000
+    description: Management Service
 
 paths:
   # For Restaurant Service
@@ -229,3 +231,19 @@ paths:
         '401':
           description: Invalid credentials
 
+# For Management Service
+  /reset-db:
+    post:
+      summary: Reset the database
+      servers:
+        - url: http://localhost:5000
+      responses:
+        '200':
+          description: Database reset
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
