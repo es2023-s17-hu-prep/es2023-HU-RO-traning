@@ -231,6 +231,52 @@ paths:
         '401':
           description: Invalid credentials
 
+  /register:
+    post:
+      summary: Create a new user
+      description: Create a new user
+      servers:
+        - url: http://localhost:5006
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: User name
+                email:
+                  type: string
+                  description: User Email
+                password:
+                  type: string
+                  description: User Password
+      responses:
+        '201':
+          description: User created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user_id:
+                    type: number
+                  name:
+                    type: string
+                  email:
+                    type: string
+        '400':
+          description: Email already exists
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+
 # For Management Service
   /reset-db:
     post:

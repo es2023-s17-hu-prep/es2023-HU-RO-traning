@@ -1,8 +1,10 @@
 {
 	"info": {
-		"_postman_id": "d4ff2ea3-9932-45eb-a10f-31deb830c22c",
+		"_postman_id": "58a9e508-fae0-410c-a2de-fb5dd4fdab3c",
 		"name": "Module-C microservices",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28166922",
+		"_collection_link": "https://fork-hu-dev.postman.co/workspace/ES2023-HU-RO-Training~73af892f-c295-4b3d-9501-c01363196f49/collection/28166922-58a9e508-fae0-410c-a2de-fb5dd4fdab3c?action=share&creator=28166922&source=collection_link"
 	},
 	"item": [
 		{
@@ -217,6 +219,29 @@
 			"name": "User Service",
 			"item": [
 				{
+					"name": "Create a new user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"name\": \"Jakab Gipsz\",\r\n        \"email\": \"jakab.gipsz@example.com\",\r\n        \"password\": \"jakab2023\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{userServiceRegisterBaseUrl}}",
+							"host": [
+								"{{userServiceRegisterBaseUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Authenticate a user",
 					"request": {
 						"method": "POST",
@@ -224,6 +249,29 @@
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"email\": \"linda.martinez@example.com\",\r\n    \"password\": \"lindamar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{userServiceBaseUrl}}",
+							"host": [
+								"{{userServiceBaseUrl}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Authenticate new registered user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"jakab.gipsz@example.com\",\r\n    \"password\": \"jakab2023\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -376,7 +424,7 @@
 	"variable": [
 		{
 			"key": "restaurantServiceBaseUrl",
-			"value": "http://localhost:5001/restaurants",
+			"value": "http://localhost:5001",
 			"type": "string"
 		},
 		{
@@ -395,7 +443,7 @@
 			"type": "string"
 		},
 		{
-			"key": "orderServiceBaseUrl",
+			"key": "orderServiceBaseUrl\n",
 			"value": "http://localhost:5005/orders",
 			"type": "string"
 		},
@@ -407,6 +455,11 @@
 		{
 			"key": "managementServiceBaseUrl\n",
 			"value": "http://localhost:5000/reset-db",
+			"type": "string"
+		},
+		{
+			"key": "userServiceRegisterBaseUrl",
+			"value": "http://localhost:5006/register",
 			"type": "string"
 		}
 	]
