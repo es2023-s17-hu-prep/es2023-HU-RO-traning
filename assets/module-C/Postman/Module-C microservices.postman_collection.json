@@ -1,10 +1,8 @@
 {
 	"info": {
-		"_postman_id": "58a9e508-fae0-410c-a2de-fb5dd4fdab3c",
+		"_postman_id": "d4ff2ea3-9932-45eb-a10f-31deb830c22c",
 		"name": "Module-C microservices",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "28166922",
-		"_collection_link": "https://fork-hu-dev.postman.co/workspace/ES2023-HU-RO-Training~73af892f-c295-4b3d-9501-c01363196f49/collection/28166922-58a9e508-fae0-410c-a2de-fb5dd4fdab3c?action=share&creator=28166922&source=collection_link"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
@@ -378,7 +376,7 @@
 	"variable": [
 		{
 			"key": "restaurantServiceBaseUrl",
-			"value": "http://localhost:5001",
+			"value": "http://localhost:5001/restaurants",
 			"type": "string"
 		},
 		{
@@ -397,7 +395,7 @@
 			"type": "string"
 		},
 		{
-			"key": "orderServiceBaseUrl\n",
+			"key": "orderServiceBaseUrl",
 			"value": "http://localhost:5005/orders",
 			"type": "string"
 		},
