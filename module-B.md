@@ -42,7 +42,6 @@ It will be the page for a reservation system with the following feautres:
     * restaurant owners can manage incoming reservations
     * Displaying a list of reservations with relevant details like date, time, party size, and contact information
     * Enable the confirmation or cancellation of reservations
-**You do not need to implement the features above in your prototype. You should display only the "Reservation" title on this page.**
 
 * **Review Management**
 Implement a feature for restaurant owners to manage customer reviews.
