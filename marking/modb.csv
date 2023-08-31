@@ -1,0 +1,49 @@
+Criteria;Type;Aspect;Description;Full mark
+Database Design;;;;
+;M;Robust and efficient schema designed;Deduct 0,1 for missing or inefficient designs;1,0
+;M;Correct tables identified;Deduct 0,1 for each missing table;0,5
+;M;Correct relationships identified;Deduct 0,1 for each missing or incorrect relationship;0,5
+;M;Correct fields identified;Deduct 0,1 for each missing or incorrect field;0,5
+;M;Proper normalization;Deduct 0,1 for each normalization violation;0,5
+;M;Data integrity;Check for data integrity violations;0,5
+;M;CSV files imported without errors;Deduct 0,1 for errors during import;0,5
+;M;Data normalization for CSV;Addressed data normalization challenges from CSV;0,5
+User Authentication and Security;;;;
+;M;Secure user authentication;Deduct 0,1 for any security flaw;1,0
+;M;Password encryption;Deduct 0,1 if encryption is missing or flawed;0,5
+;M;Password hashing;Deduct 0,1 if hashing is missing or flawed;0,5
+;M;Role identification;Deduct 0,1 if roles are not properly identified;0,5
+;M;Role-based access;Deduct 0,1 if roles can access unauthorized areas;0,5
+;M;Account locking implemented;Deduct 0,1 if mechanism fails;0,5
+;M;Lockout duration;Check if 30s lockout is applied;0,5
+;M;Login redirect;Deduct 0,1 for incorrect redirection;0,5
+;M;Logout functionality;Deduct 0,1 if user isn't logged out properly;0,5
+;M;Protected routes;Deduct 0,1 if routes can be accessed without authentication;0,5
+Restaurant's Dashboard;;;;
+;M;User-friendly interface;Deduct 0,1 for any major usability flaw;1,0
+;M;Edit Profile link;Deduct 0,1 for missing or incorrect link;0,5
+;M;Edit Profile functionality;Deduct 0,1 for missing or incorrect functionality;0,5
+;M;Menu CRUD operations;Deduct 0,1 for any missing operation;1,0
+;M;Dish name inclusion;Deduct 0,1 for failure to include dish names;0,5
+;M;Dish price inclusion;Deduct 0,1 for failure to include dish prices;0,5
+;M;Reservation list display;Deduct 0,1 for missing or incorrect display;0,5
+;M;Reservation details;Deduct 0,1 for missing details like date, time, etc.;0,5
+;M;Reservation confirmation;Deduct 0,1 for missing or incorrect functionality;0,5
+;M;Reservation cancellation;Deduct 0,1 for missing or incorrect functionality;0,5
+;M;Review list display;Deduct 0,1 for missing or incorrect display;0,5
+;M;Review details;Deduct 0,1 for missing details like ratings, comments;0,5
+OWASP Guidelines Implementation;;;;
+;M;SQL injection protection;Deduct 0,1 if vulnerability is present;0,5
+;M;XSS protection;Deduct 0,1 if vulnerability is present;0,5
+;M;CSRF protection;Deduct 0,1 if protection is absent or flawed;0,5
+;M;Form validation;Deduct 0,1 for any missing validation;0,5
+;M;Error handling;Deduct 0,1 for improper error handling;0,5
+;M;Secure data transmission;Deduct 0,1 if data is not transmitted securely;0,5
+Additional Functionalities;;;;
+;M;Upload of restaurant logo;Deduct 0,1 for incorrect or missing functionality;0,5
+;M;Valid email address field;Deduct 0,1 for lack of validation;0,5
+;M;Session management;Deduct 0,1 for improper session management;0,5
+;M;Responsive design;Deduct 0,1 for lack of responsiveness;0,5
+;M;Clean and modular code;Deduct 0,1 for messy or monolithic code;0,5
+;J;Documentation;Deduct 0,1 for lack of or insufficient documentation;1,0
+;J;User Experience;Subjective evaluation of overall UX;1,0

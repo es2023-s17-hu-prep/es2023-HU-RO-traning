@@ -1,0 +1,429 @@
+﻿17 Web Technologies;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+WorldSkills Standards Specification;;;;;;;;;;;;;;;;;;;
+Section;WSSS Marks;;;;;;;WSSS Marks;Aspect Marks;Variation;;;;;;;;;
+1;WSS;;;;;;;100,00;77,25;22,75;;;;;;;;;
+;;;;;;;;Total Variation;;22,75;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+Criteria;;;;;;;;;;;;;;;;;;;
+ID;Name;;;;;;;;;Mark;;;;;;;;;
+A;Static Website Design (DineEase Showcase Website);;;;;;;;;17,00;;;;;;;;;
+B;Dynamic website with server-side rendering (Restaurant Owners' Hub);;;;;;;;;23,00;;;;;;;;;
+C;Commercial Open API (Commercial API Provider);;;;;;;;;17,00;;;;;;;;;
+D;Interactive Frontend using an API (Interactive Guest Experience);;;;;;;;;22,00;;;;;;;;;
+E;Advanced Web Development (Next-Gen Innovations);;;;;;;;;16,00;;;;;;;;;
+F;Collaborative Challenge;;;;;;;;;5,00;;;;;;;;;
+G;;;;;;;;;;;;;;;;;;;
+H;;;;;;;;;;;;;;;;;;;
+I;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;Jani;;14,93277778;Oliver;;11,68888889;Cata;;8,55
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion A;"Total
+Mark";17,00;Criterion A;"Total
+Mark";11,69;Criterion A;"Total
+Mark";8,55
+A1;General layout and + mplementatiom;1;;;;;;;;;;;;;;;;;
+;;;M;The page consists of all main sections (welcoming, featured, testimonials, seach. footer);;Deduct 0.2 per missing sections;;1;;0,50;1;;0,5;1;;0,5;1;;0,5
+;;;M;There is 5 different pages;;Deduct 0.2 per missing pages;;1;;0,50;1;;0,5;1;;0,5;1;0,4;0,1
+;;;M;Navigation is working from the homepage;;Deduct 0.2 per errors;;1;;0,50;1;;0,5;1;;0,5;1;0,4;0,1
+;;;M;Navigation is working on the 3 subpages;;Deduct 0.33 per pages which have broken link or missing link;;1;;0,50;1;;0,5;0;;0;0;;0
+;;;J;Clean code;;;;1;;0,50;0,33;;0,165;0,89;;0,444444444;0,78;;0,388888889
+;;;;;0;Files and code are unorganized. No comments and code is mixed together.;;;;;;;;;;;;;
+;;;;;1;Files and code are separated and organized. Programmers can identify which part is which without much difficulties.;;;;;;;;;;;;;
+;;;;;2;Files and code are separated and organized, with few comments but no enough description on how each functionalities works;;;;;;;;;;;;;
+;;;;;3;Files and code are very well organized, with meaningful file names, class names, and meaningful comments to describe how each functionality works;;;;;;;;;;;;;
+A2;Header section;1;;;;;;;;;;;0;;;;;;
+;;;M;There is menubar with menu items;;Deduct 0.2 per missing items;;1;;0,50;1;;0,5;1;;0,5;1;;0,5
+;;;M;Banner includes title, description, image, and Explore restaurants button;;Deduct 0.2 per missing items and errors;;1;;0,50;1;;0,5;1;;0,5;1;;0,5
+;;;J;Implemetation;;;;1;;0,50;0,66;;0,33;0,89;;0,444444444;0,56;;0,277777778
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+A3;Featured Restaurants section;1;;;;;;;;;;;;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing items and errors;;1;;0,50;1;;0,5;1;;0,5;1;;0,5
+;;;M;3 restaurant cards are displayed;;;;;;;1;;0;1;;0;1;;0
+;;;M;Restaurant cards has all the elements;;Deduct 0.2 per missing items and errors;;;;;1;;0;1;;0;1;;0
+;;;J;Implemetation;;;;1;;0,50;0,66;;0,33;0,67;;0,333333333;1,00;;0,5
+;;;;;0;The desing was not implemented at all;;;;;;;0;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+A4;Testimonials section;1;;;;;;;;;;;0;;;;;;
+;;;M;All elements were implemented (title, testimonials);;Deduct 0.2 per missing items and errors;;1;;0,50;1,00;;0,5;1,00;;0,5;1,00;;0,5
+;;;M;There are 3 testimonals are displayed;;Deduct 0.2 per missing items and errors;;1;;0,25;1,00;;0,25;1,00;;0,25;1,00;;0,25
+;;;M;The layout is according to the design (one card in the 1st cloumn, 2 cards in the second;;;;1;;0,50;1,00;;0,5;1,00;;0,5;0,00;;0
+;;;J;Implemetation;;;;1;;0,50;0,89;;0,444444444;0,78;;0,388888889;0,44;;0,222222222
+;;;;;0;The desing was not implemented at all;;;;;;;0;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+A5;Search section;1;;;;;;;;;;;0;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing or wrong items;;1;;0,50;1,00;;0,5;0,00;;0;1,00;0,20;0,3
+;;;M;There is simple search bar with the necessary elements;;Deduct 0.2 per missing or wrong items;;1;;0,50;1,00;;0,5;0,00;;0;1,00;0,20;0,3
+;;;M;Click on the spoecial icon changes to other view of the searcbar;;Deduct 0.2 per missing or wrong items;;1;;0,50;1,00;;0,5;0,00;;0;0,00;;0
+;;;M;Advance searchbar dispalyed with all the requested elements;;Deduct 0.2 per missing or wrong items;;;;0,50;1,00;;0,5;0,00;;0;0,00;;0
+;;;;possible to switch back to simple search;;;;;;0,25;1,00;;0,25;0,00;;0;0,00;;0
+;;;J;Implemetation;;;;1;;0,50;0,66;;0,33;0,00;;0;0,56;;0,277777778
+;;;;;0;The desing was not implemented at all;;;;;;;0;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+A6;Footer;1;;;;;;;;;;;0;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing fileds or wrong filed type ;;1;;0,50;1,00;;0,5;1,00;;0,5;1,00;;0,5
+;;;J;Implemetation;;;;1;;0,50;0,78;;0,388888889;0,78;;0,388888889;0,67;;0,333333333
+;;;;;0;The desing was not implemented at all;;;;;;;0;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+A8;Homepage responsivity;;;;;;;;;;;;0;;;;;;
+;;;J;Responsive behaviour;;;;1;;0,50;0,56;;0,277777778;0,33;;0,166666667;0,67;;0,333333333
+;;;;;0;The page is not responsive at all;;;;;;;0;;;;;;
+;;;;;1;There is a breakpoint but the implementation of responsivity is poor;;;;;;;0;;;;;;
+;;;;;2;There is good responsive behaviour with some minor issues;;;;;;;0;;;;;;
+;;;;;3;Perfect responsivity according to the design;;;;;;;0;;;;;;
+A7;About Page;;;;;;;;;;;;0;;;;;;
+;;;M;Timeline section is displayed properly;;Deduct 0.2 per missing items and errors;;;;0,50;1,00;;0,5;1,00;0,20;0,3;0,00;;0
+;;;M;Meet our team section is dispalyed properly;;Deduct 0.2 per missing items and errors;;;;0,50;1,00;;0,5;1,00;0,20;0,3;0,00;;0
+;;;M;Connect section is displayed properly;;Deduct 0.2 per missing items and errors;;;;0,25;1,00;;0,25;1,00;;0,25;0,00;;0
+;;;J;Implemetation;;;;;;;;;0;;;;;;
+;;;;;0;The desing was not implemented at all;;1;;0,50;0,67;;0,333333333;0,56;;0,277777778;0,00;;0
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+;;;J;Responsive behaviour;;;;1;;0,50;1,00;;0,5;0,56;;0,277777778;0,00;;0
+;;;;;0;The page is not responsive at all;;;;;;;0;;;;;;
+;;;;;1;There is a breakpoint but the implementation of responsivity is poor;;;;;;;0;;;;;;
+;;;;;2;There is good responsive behaviour with some minor issues;;;;;;;0;;;;;;
+;;;;;3;Perfect responsivity according to the design;;;;;;;0;;;;;;
+A8;Term of Use and Privacy Pages;;;;;;;;;;;;0;;;;;;
+;;;M;Both pages are exist with the proper content;;Deduct 0.3 per missing items and errors;;1;;0,50;1;;0,5;1;;0,5;0;;0
+;;;J;Implemetation;;;;;;;;;0;;;;;;
+;;;;;0;The desing was not implemented at all;;1;;0,25;1,00;;0,25;0,89;;0,222222222;0,00;;0
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;;;;
+;;;;;;;;;;;;;;;;;;;
+A7;Contact Us Page;;;;;;;;;;;;0;;;;;;
+;;;M;Conatct Information section is displayed properly;;Deduct 0.2 per missing items and errors;;;;0,50;1,00;;0,5;1,00;;0,5;1,00;0,20;0,3
+;;;M;Contact Us form is displayed properly;;Deduct 0.2 per missing items and errors;;;;0,50;1,00;;0,5;1,00;;0,5;1,00;;0,5
+;;;J;Implemetation;;;;;;;;;0;;;;;;
+;;;;;0;The desing was not implemented at all;;1;;0,50;0,67;;0,333333333;0,89;;0,444444444;0,56;;0,277777778
+;;;;;1;There are similar things to the design, but major differences;;;;;;;0;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;0;;;;;;
+;;;;;3;Perfect implementation;;;;;;;0;;;0;;;0
+;;;J;Responsive behaviour;;;;1;;0,50;1,00;;0,5;1,00;;0,5;0,78;;0,388888889
+;;;;;0;The page is not responsive at all;;;;;;;0;;;;;;
+;;;;;1;There is a breakpoint but the implementation of responsivity is poor;;;;;;;0;;;;;;
+;;;;;2;There is good responsive behaviour with some minor issues;;;;;;;0;;;;;;
+;;;;;3;Perfect responsivity according to the design;;;;;;;0;;;;;;
+A10;SEO;;;;;;;;;;;;0;;;;;;
+;;;;There are at least 3 SEO optimalizations;;Deduct 0.2 per missing items and errors;;1;;0,60;1;0,4;0,2;1;0,2;0,4;1;0,2;0,4
+A11;Accessibility;;;;;;;;;;;;0;;;0;;;0
+;;;;There is no error testing by axe;;Deduct 0.1 per error;;1;;0,40;1;0,1;0,3;1;0,1;0,3;1;0,1;0,3
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion B;"Total
+Mark";14,50;Criterion B;"Total
+Mark";0,00;Criterion B;"Total
+Mark";0,00
+A1;General layout and implementatiom;1;;;;;;;;;;;;;;;;;
+;;;M;The page consists of all main sections (welcoming, featured, testimonials, seach. footer);;Deduct 0.2 per missing sections;;1;;0,50;;;;;;;;;
+;;;M;There is 4 different pages;;Deduct 0.2 per missing pages;;1;;1,00;;;;;;;;;
+;;;M;Navigation is working from the homepage;;Deduct 0.2 per errors;;1;;1,00;;;;;;;;;
+;;;M;Navigation is working on the 3 subpages;;Deduct 0.33 per pages which have broken link or missing link;;;;;;;;;;;;;
+;;;J;Clean code;;;;1;;1,00;;;;;;;;;
+;;;;;0;Files and code are unorganized. No comments and code is mixed together.;;;;;;;;;;;;;
+;;;;;1;Files and code are separated and organized. Programmers can identify which part is which without much difficulties.;;;;;;;;;;;;;
+;;;;;2;Files and code are separated and organized, with few comments but no enough description on how each functionalities works;;;;;;;;;;;;;
+;;;;;3;Files and code are very well organized, with meaningful file names, class names, and meaningful comments to describe how each functionality works;;;;;;;;;;;;;
+A2;Header section;1;;;;;;;;;;;;;;;;;
+;;;M;There is menubar with menu items;;Deduct 0.2 per missing items;;1;;0,50;;;;;;;;;
+;;;M;Menubar has transparent background;;;;1;;0,50;;;;;;;;;
+;;;M;Social icons at the right side of the menu bar, mouse cursor pointer;;Deduct 0.2 per missing items and errors;;1;;0,50;;;;;;;;;
+;;;M;Banner includes title, description, image, and Explore restaurants button;;Deduct 0.2 per missing items and errors;;1;;0,50;;;;;;;;;
+;;;J;Implemetation;;;;1;;0,50;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+A3;Featured Restaurants section;1;;;;;;;;;;;;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing items and errors;;1;;1,00;;;;;;;;;
+;;;M;3 restaurant cards are displayed;;;;;;;;;;;;;;;
+;;;M;Restaurant cards has all the elements;;Deduct 0.2 per missing items and errors;;;;;;;;;;;;;
+;;;J;Implemetation;;;;1;;0,50;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+A4;Testimonials section;1;;;;;;;;;;;;;;;;;
+;;;M;All elements were implemented (title, testimonials);;Deduct 0.2 per missing items and errors;;1;;1,00;;;;;;;;;
+;;;M;There are 3 testimonals are displayed;;Deduct 0.2 per missing items and errors;;1;;1,00;;;;;;;;;
+;;;J;Implemetation;;;;1;;0,50;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+A5;Search section;1;;;;;;;;;;;;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing or wrong items;;1;;1,00;;;;;;;;;
+;;;M;3 restaurant cards are displayed;;Deduct 0.2 per missing or wrong items;;1;;0,50;;;;;;;;;
+;;;M;There is simple search bar with the necessary elements;;Deduct 0.2 per missing or wrong items;;1;;1,00;;;;;;;;;
+;;;M;Click on the spoecial icon changes to other view of the searcbar;;Deduct 0.2 per missing or wrong items;;;;;;;;;;;;;
+;;;M;Advance searchbar dispalyed with all the requested elements;;Deduct 0.2 per missing or wrong items;;;;;;;;;;;;;
+;;;J;Implemetation;;;;1;;0,50;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+A6;Footer;1;;;;;;;;;;;;;;;;;
+;;;M;All elements were implemented;;Deduct 0.2 per missing fileds or wrong filed type ;;1;;1,00;;;;;;;;;
+;;;J;Implemetation;;;;1;;0,50;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion C;"Total
+Mark";30,00;Criterion C;"Total
+Mark";0,00;Criterion C;"Total
+Mark";0,00
+C1;Login;2;;;;;;;;;;;;;;;;;
+;;;M;"Login successful response json 
+200, {token}";;deduct 0.2 for each error;;1;;1,00;;;;;;;;;
+;;;M;Login failed response 401, {status, message};;deduct 0.2 for each error;;1;;0,50;;;;;;;;;
+C2;Teams;2;;;;;;;;;;;;;;;;;
+;;;M;Get Teams successful (200);;deduct 0.2 for each error;;1;;1,00;;;;;;;;;
+;;;M;Create Team successful (201);;;;1;;1,00;;;;;;;;;
+;;;M;Create team bad request (400) if one of the mandatory fileld is missing;;;;1;;0,50;;;;;;;;;
+;;;M;Update Team (200);;deduct 0.2 for each error.;;1;;1,00;;;;;;;;;
+;;;M;Average pace calculation is correct (create, update, get);;deduct 0.5 for each error;;1;;1,50;;;;;;;;;
+;;;M;Access code generated for new teams as requested;;deduct 0.5 for each error;;1;;1,00;;;;;;;;;
+;;;M;Delete Team successful (204);;deduct 0.25 for each error;;1;;1,00;;;;;;;;;
+;;;M;Delete Team not found (404);;deduct 0.25 for each error;;1;;1,00;;;;;;;;;
+C3;General aspects;1;;;;;;;;;;;;;;;;;
+;;;M;backend serve on htttp://backend.ub2023-YY.hu/api/v1 base URL;;;;1;;0,50;;;;;;;;;
+;;;M;401, Unauthorized without token or wrong token an all endpoint except login ;;deduct 0.2 for each error;;1;;1,00;;;;;;;;;
+;;;J;Clean code;;;;1;;1,00;;;;;;;;;
+;;;;;0;Files and code are unorganized. No comments and code is mixed together.;;;;;;;;;;;;;
+;;;;;1;Files and code are separated and organized. Programmers can identify which part is which without much difficulties.;;;;;;;;;;;;;
+;;;;;2;Files and code are separated and organized, with few comments but no enough description on how each functionalities works;;;;;;;;;;;;;
+;;;;;3;Files and code are very well organized, with meaningful file names, class names, and meaningful comments to describe how each functionality works;;;;;;;;;;;;;
+C4;Admin login and logout;2;;;;;;;;;;;;;;;;;
+;;;M;If not logged in Login window appears;;;;1;;0,50;;;;;;;;;
+;;;M;Login window has all the element according to the wireframe + use password field type ;;deduct 0.2 for each error;;1;;0,50;;;;;;;;;
+;;;M;User can logged in using the login endpoint;;deduct 0.5 if token is not stored;;1;;0,75;;;;;;;;;
+;;;M;In case of unsuccessful authentication, an error message is  displayed;;;;1;;0,50;;;;;;;;;
+;;;M;After successful login user redirected to Teams page;;;;1;;0,50;;;;;;;;;
+;;;M;Logout button is displayed, it can be used to logout (token is deleted);;Deduct 0.5 if logout is not working;;1;;0,75;;;;;;;;;
+;;;M;After successful logout user redirected to Login page;;;;1;;0,50;;;;;;;;;
+C5;Team Race ;2;;;;;;;;;;;;;;;;;
+;;;M;All the element of the section are displayed;;deduct 0.25 for each missing element;;1;;0,50;;;;;;;;;
+;;;M;Starting time is date-time field ;;;;1;;0,25;;;;;;;;;
+;;;M;Starting time is filled-in with the first team date-time;;;;1;;0,75;;;;;;;;;
+;;;M;Interval is 5 when the page is loaded or refreshed, only integer accepted;;deduct 0.25 for each missing element;;1;;0,50;;;;;;;;;
+;;;M;Update Starting Time button  update starting times as requested ;;deduct 0,5 if the new times is stored in the database, deduct 0,25 for any other error;;1;;1,00;;;;;;;;;
+C6;Teams section;2;;;;;;;;;;;;;;;;;
+;;;M;Teams table contains all the fields and elements according to the wireframe;;deduct 0.2 for each missing part or error;;1;;1,00;;;;;;;;;
+;;;M;Only the name and e-mail fields are editable;;;;1;;0,25;;;;;;;;;
+;;;M;Table is filled with the data fetched from the backend using the right order;;deduct 0,5 if the order is not as requested;;1;;1,00;;;;;;;;;
+;;;M;The swap buttons work as requested;;deduct 0,5 for each error;;1;;1,50;;;;;;;;;
+;;;M;Team data is updated when admin cliciks on the save button;;;;1;;1,00;;;;;;;;;
+;;;M;Adding team is not possible if there is unsaved starting time change ;;;;1;;0,25;;;;;;;;;
+;;;M;Clicking on + button create a new team with calculated starting time (required field checked, rigth starting time, new team is displayed at the end of the table) ;;deduct 0.25 for each each error;;1;;1,00;;;;;;;;;
+;;;M;Save Starting Times button is inactive if there is no unsaved starting time change and active if there is unsaved change;;deduct 0.25 for each missing element;;1;;0,50;;;;;;;;;
+;;;M;Clicking the “Save Starting Times” button on the bottom of the page saves the planned starting times to the database, but not other unsaved changes made to the teams’ data ;;deduct 0,25 for each error;;1;;1,00;;;;;;;;;
+;;;M;Clicking on the “Reorder by Average Pace” button defines a new order and planned starting times as requested;;deduct 0,25 if starting times send to the backend;;1;;1,50;;;;;;;;;
+;;;M;Clicking on this delete icon a confirmation window appears;;deduct 0,2 for each error;;1;;0,50;;;;;;;;;
+;;;M;Clicking on “Delete” deletes the team from the database, Cancel button close the windows without deleting;;deduct 0,25 for each error;;1;;0,50;;;;;;;;;
+;;;J;Clean code;;;;1;;1,00;;;;;;;;;
+;;;;;0;Files and code are unorganized. No comments and code is mixed together.;;;;;;;;;;;;;
+;;;;;1;Files and code are separated and organized. Programmers can identify which part is which without much difficulties.;;;;;;;;;;;;;
+;;;;;2;Files and code are separated and organized, with few comments but no enough description on how each functionalities works;;;;;;;;;;;;;
+;;;;;3;Files and code are very well organized, with meaningful file names, class names, and meaningful comments to describe how each functionality works;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion D;"Total
+Mark";30,00;Criterion D;"Total
+Mark";0,00;Criterion D;"Total
+Mark";0,00
+D1;General layout and implementation;2;;;;;;;;;;;;;;;;;
+;;;M;App is reachable using the URL http://runner-app.ub2023-YY.hu;;;;1;;1,00;;;;;;;;;
+;;;M;Login by token in the URL works;;;;1;;1,00;;;;;;;;;
+;;;M;Header with UB 2023 and team name;;;;1;;1,00;;;;;;;;;
+D2;Runner selection;2;;;;;;;;;;;;;;;;;
+;;;M;All team members are displayed;;deduct 0,2 for each error;;1;;1,00;;;;;;;;;
+;;;M;There are placeholder up to 14 members;;;;1;;1,00;;;;;;;;;
+;;;M;Names are clickable and redirect to the tracking page;;;;1;;1,00;;;;;;;;;
+;;;J;Implemetation;;;;1;;1,00;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+D3;Tracking page;2;;;;;;;;;;;;;;;;;
+;;;M;"The page consists of the following main parts (welcome text
+current runner box, next run part)";;deduct 0,25 for each missing part;;1;;0,50;;;;;;;;;
+;;;J;Implemetation;;;;1;;2,00;;;;;;;;;
+;;;;;0;The desing was not implemented at all;;;;;;;;;;;;;
+;;;;;1;There are similar things to the design, but major differences;;;;;;;;;;;;;
+;;;;;2;Most of the design elements were implemented, but there are slight differences;;;;;;;;;;;;;
+;;;;;3;Perfect implementation;;;;;;;;;;;;;
+D4;Welcome text;2;;;;;;;;;;;;;;;;;
+;;;M;"Welcome text before and during the race is ""Hi <name>! Have a good running!""";;;;1;;1,00;;;;;;;;;
+;;;M;"Welcome text after the runner last run is ""Congratulation, well done!""";;;;1;;1,00;;;;;;;;;
+;;;M;"Welcome text after the team race is ""All done, well done!""";;;;1;;1,00;;;;;;;;;
+D5;Current runner box;;;;;;;;;;;;;;;;;;
+;;;M;Data fetched by using /currentRunner endpoint;;;;1;;1,00;;;;;;;;;
+;;;M;"If the team has not yet started the race, ""The team has not yet started"" is displayed instead of the name";;;;1;;1,00;;;;;;;;;
+;;;M;"If the team has already finished its race, the text ""The team has finished the race"" is displayed";;;;1;;1,00;;;;;;;;;
+;;;M;In any other situation the runner's name is displayed;;;;1;;1,00;;;;;;;;;
+;;;M;The time difference is shown in right time format;;;;1;;1,00;;;;;;;;;
+;;;M;"""ahead of schedule"" caption is displayed, when the time difference is positive, ""behind schedule""  when negative";;;;1;;1,00;;;;;;;;;
+D6;Next run part;;;;;;;;;;;;;;;;;;
+;;;M;Data fetched by using /nextRun endpoint;;;;1;;0,50;;;;;;;;;
+;;;M;Section shows all the details of the next run of the selected runner (length of the runner's next run (stage) in km, time remaining until the next run, name of the starting location, the planned handover time (starting location), name of previous runner, handover button 1, name of the finishing locationm, the planned handover time (finishing location), name of thenext runner, handover button 2);;deduct 0,2 for each missing part;;1;;1,50;;;;;;;;;
+;;;M;If the selected runner  finished all his/her running (stages) “No more running” text should be displayed instead of stage length;;;;1;;0,75;;;;;;;;;
+;;;M;If there is more than 1 day to go, the total number of days remaining is displayed.;;;;1;;0,75;;;;;;;;;
+;;;M;counter is updated continuously without refreshing the browser window;;;;1;;0,50;;;;;;;;;
+;;;M;Handover button for starting location is active and clickable if the value of canStart is true and inactive if canStart is false.;;;;1;;0,50;;;;;;;;;
+;;;M;If the selected runner will run the first stage (and has not yet started their run), the “Start race” button at the top of the screen will be displayed. For other runners the button will be “Handover now”. ;;;;1;;0,50;;;;;;;;;
+;;;M;handover button for finishing location is active only if the selected runner already started his run on that stage and inactive otherwise;;deduct 0,5 for each error;;1;;1,00;;;;;;;;;
+;;;M;Handover buttons should not be displayed if there is more than one day to go until the next run of the selected runner;;deduct 0,5 for each error;;1;;1,00;;;;;;;;;
+;;;M;/handover/start  and handover/finish is used properly;;deduct 0,5 for each error;;1;;1,50;;;;;;;;;
+;;;M;/nextRun and /currentRunner endpoints need to be polled every 10 seconds, and after every handover action;;deduct 0,5 for each error (e.g. polling interval is wrong, polling withoutrefreshing the UI, no polling after handover);;1;;2,00;;;;;;;;;
+;;;J;Clean code;;;;1;;1,00;;;;;;;;;
+;;;;;0;Files and code are unorganized. No comments and code is mixed together.;;;;;;;;;;;;;
+;;;;;1;Files and code are separated and organized. Programmers can identify which part is which without much difficulties.;;;;;;;;;;;;;
+;;;;;2;Files and code are separated and organized, with few comments but no enough description on how each functionalities works;;;;;;;;;;;;;
+;;;;;3;Files and code are very well organized, with meaningful file names, class names, and meaningful comments to describe how each functionality works;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion F;"Total
+Mark";0,00;Criterion F;"Total
+Mark";0,00;Criterion F;"Total
+Mark";0,00
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion G;"Total
+Mark";0,00;Criterion G;"Total
+Mark";0,00;Criterion G;"Total
+Mark";0,00
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion H;"Total
+Mark";0,00;Criterion H;"Total
+Mark";0,00;Criterion H;"Total
+Mark";0,00
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+"Sub
+Criterion
+ID";"Sub Criterion
+Name or Description";Day of Marking;"Aspect
+Type
+M = Meas
+J = Judg";Aspect - Description;Judg Score;"Extra Aspect Description (Meas or Judg)
+OR
+Judgement Score Description (Judg only)";"Requirement
+(Measurement Only)";WSSS Section;"Calculation Row 
+(Export only)";"Max
+Mark";Criterion I;"Total
+Mark";0,00;Criterion I;"Total
+Mark";0,00;Criterion I;"Total
+Mark";0,00
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;Competition;"Total
+Mark";121,37;Competition;"Total
+Mark";35,07;Competition;"Total
+Mark";25,65

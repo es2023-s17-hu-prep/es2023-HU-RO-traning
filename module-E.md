@@ -32,16 +32,17 @@ The PWA should support offline functionality, push notifications, and seamless i
 - The PWA should be able to run offline, allowing users to access previously cached content and perform key actions even when they're not connected to the internet. Caching strategies should be wisely implemented to ensure optimal performance and minimal data usage.
 - Purpose of the DineEase PWA: To provide users with an on-the-go experience, allowing them quick access to restaurant listings and the ability to view menus, even when offline. Simplified Functionalities of the DineEasy PWA for a 1-hour task:
     1. **Basic Restaurant Listings:**
-        - Display a list of three to five sample restaurants available on DineEasy.
+        - Display a list of the first six restaurants available on DineEasy. You can fetch the restaurants using the following endpoint: GET /restaurants, response: {restaurant_id, name, location, cusine, description}
         - Users can tap on a restaurant to see more details.
     2. **Offline Menus & Details:**
-        - Cache and display basic menu items (3-4 items per restaurant) for offline access.
-        - Display a friendly offline message if the user tries to access non-cached details.
+        - Display menu items in a modal when the user click one of the restaurant cards. You can fetch the menus using the following endpoint: GET /menus response: [{menu_id,restaurant_id,dish_name,price}]
+        - Cache the menus of the first 3 restaurants for offline access.
+        - Display a friendly offline message if the user tries to access non-cached menus.
     3. **Installable Feature:**
         - Users should be able to add the DineEasy PWA to their device's home screen.
         - Set up a basic app icon and start URL for the PWA.
     4. **Basic Push Notifications:**
-        - Implement a single push notification to welcome users when they first install the PWA.
+        - In the DineEase system, restaurants can offer promotional deals. Upon the application's first launch, it needs to request permission from the user to display notifications. Later, the application should query the promotional offers every 30 seconds using GET /offers, with the response containing [{id, restaurant_id, offers}]. If there are offers in the list that have not yet been displayed as notifications, then the new offer should be displayed as a notification.
     5. **Minimalistic User Interface:**
         - A clean, intuitive interface that showcases the above functionalities without requiring elaborate design components.
         - This trimmed-down version should be feasible for a one-hour development timeframe, given that the developer is experienced and the environment/tools are all set up. The key will be to focus on the essential PWA features (offline access, installability, basic notifications) while keeping the scope limited to ensure quality.
