@@ -8,8 +8,20 @@
 
 ## The aim of the training:
 The aim of the event is to give EuroSkills competitors from both countries an intensive training session before the competition, where they can prepare for the  EuroSkills in competitive conditions.
+## Training material & assets:
+
 
 ## Schedule:
+### Modules Overvide
+- [Modules Overview](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-overviews.md)
+### Module A
+- [Module A Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-A.md)
+- [Module A Assets and Media Files](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-C1)
+### Module B
+- (https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-
+- (https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-B.md) | 
+| C2 | 08.16.2023 (Wednesday)     | Competition simulation - [Module C](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-C.md) & [Module D](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-D.md)| 
+| C3 | 08.17.2023 (Thursday)     | Competition simulation - [Module E](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-E.md) & Module F | 
 
 
 | CT | Date | Topic | 
