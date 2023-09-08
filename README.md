@@ -12,18 +12,25 @@ The aim of the event is to give EuroSkills competitors from both countries an in
 
 
 ## Schedule:
+
 ### Modules Overvide
 - [Modules Overview](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-overviews.md)
-### Module A
+
+### C1 - Module A & Module B
 - [Module A Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-A.md)
-- [Module A Assets and Media Files](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-C1)
-### Module B
-- (https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-
-- (https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-B.md) | 
-| C2 | 08.16.2023 (Wednesday)     | Competition simulation - [Module C](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-C.md) & [Module D](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-D.md)| 
-| C3 | 08.17.2023 (Thursday)     | Competition simulation - [Module E](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-E.md) & Module F | 
+- [Module B Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-B.md)
+- [Module A & B Assets and Media Files](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-C1)
 
+### C2 - Module C & Module D
+- [Module C Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-C.md)
+- [Module D Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-D.md)
+- [Module C & D Assets and Media Files](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-C2)
 
+### C3 - Module E
+- [Module E Test Project](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning/blob/main/module-E.md)
+- [Module E Assets and Media Files](https://github.com/es2023-s17-hu-prep/es2023-HU-RO-traning-C3)
+
+### Schedule
 | CT | Date | Topic | 
 | -------- | -------- | -------- | 
 | C-2 | 08.13.2023 (Sunday)     | Arriving     | 
